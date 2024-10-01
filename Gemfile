@@ -22,6 +22,7 @@ gem "faker"
 gem "pg_search"
 gem "pagy"
 gem "bootstrap"
+gem "bundler", "~> 2.3"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"

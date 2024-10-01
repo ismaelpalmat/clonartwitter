@@ -293,6 +293,7 @@ DEPENDENCIES
   bootsnap
   bootstrap
   brakeman
+  bundler (~> 2.3)
   capybara
   debug
   error_highlight (>= 0.4.0)
