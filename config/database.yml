@@ -80,7 +80,7 @@ test:
 #
 production:
   <<: *default
-  # database: clonartwitter_production
-  # username: clonartwitter
-  # password: <%= ENV["CLONARTWITTER_DATABASE_PASSWORD"] %>
-  url: <%= ENV["DATABASE_URL"] %>
+  database: clonartwitter_production
+  username: clonartwitter
+  password: <%= ENV["CLONARTWITTER_DATABASE_PASSWORD"] %>
+  # url: <%= ENV["DATABASE_URL"] %>
